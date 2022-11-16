@@ -69,7 +69,7 @@ div{
 
 .portafolio:hover{
     background-color: cyan;
-    border: cyan;
+    border: 3px solid cyan;
     box-shadow: 3px 3px 30px 3px cyan;
     color: #000;
     cursor: pointer;
