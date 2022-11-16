@@ -38,7 +38,7 @@ body{
 
 .button:hover{
     background: cyan;
-    color: 3px solid black;
+    color: black;
     box-shadow: 3px 3px 30px 3px cyan;
     border: 1px solid cyan;
     transition: 0.20s;
