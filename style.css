@@ -1,78 +1,59 @@
-body{
-    background: #000;
-    font-family: 'Megrim';
+@import url('https://fonts.googleapis.com/css2?family=Megrim&family=Montserrat:wght@200;400&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    font-family: 'Megrim', cursive;
+    font-family: 'Montserrat', sans-serif;
 }
 
-.logo{
+header {
+    border: 2px solid cyan;
+    margin: 10px;
+    box-shadow: 0 0 5px 2px cyan;
+    margin-bottom: 30px;
+}
+
+.logo {
     font-family: 'Megrim';
-    color: cyan;
     text-align: center;
     font-size: 100px;
-    border: 5px solid cyan;
-    border-radius: 20px;
-    box-shadow: 3px 3px 50px -20px cyan;
-    margin-right: 20px;
-    margin-left: 20px;
+    color: aqua;
+    margin: 0;
+    filter: drop-shadow(0 2px 5px rgba(0, 255, 255, 5));
 }
 
-.padre{
-    text-align: center;
+img {
+    width: 100px;
 }
 
-.hijo{
-    margin: 0px auto;
-}
-
-.button{
-    border: 3px solid white;
-    border-radius: 50px;
-    text-decoration: none;
-    background: black;
-    color: white;
-    font-size: 25px;
-    font-family: 'MuseoModerno';
-    padding: 9px;
-    padding-left: 25%;
-    padding-right: 25%;
-}
-
-.button:hover{
-    background: cyan;
-    color: black;
-    box-shadow: 3px 3px 30px 3px cyan;
-    border: 1px solid cyan;
-    transition: 0.20s;
-}
-
-div{
-    margin-top: 39px;
-}
-.ok{
-    text-align: center;
-}
-
-.lo{
-    margin: 0px auto;
-}
-
-.portafolio{
-    font-size: 30px;
-    padding-left: 25%;
-    padding-right: 25%;
-    outline: none;
-    background-color: black;
-    color: white;
-    border: 3px solid white;
-    border-radius:20px;
-    font-family: 'MuseoModerno';   
-}
-
-.portafolio:hover{
-    background-color: cyan;
-    border: 3px solid cyan;
-    box-shadow: 3px 3px 30px 3px cyan;
-    color: #000;
+img:hover {
     cursor: pointer;
-    transition: 0.20s;
-    font-family: "fantasy";
+    filter: drop-shadow(0 2px 5px rgba(0, 225, 225, 5));
+}
+
+div {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+div:hover {
+    filter: drop-shadow(0 2px 5px rgba(0, 225, 225, 5));
+    box-shadow: 0 0 5px 2px cyan;
+}
+
+@media screen and (max-width:400px) {
+    .logo {
+        font-size: 50px;
+    }
+
+    img {
+        width: 70px;
+    }
+
+    header {
+        margin-bottom: 30px;
+    }
 }
