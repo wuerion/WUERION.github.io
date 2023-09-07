@@ -7,8 +7,7 @@ body {
     align-items: center;
     height: 100vh;
     margin: 0;
-    background-color: #E0E0E0;
-    /*overflow: hidden;*/
+    background-color: #E0E0E0;
 }
 
 .card {
